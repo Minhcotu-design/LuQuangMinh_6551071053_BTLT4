@@ -1,0 +1,82 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\code\\C#\\cau14_chuong2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66975882-1FE3-4279-9F5F-2B5577AE64DC}|cau14_chuong2\\cau14_chuong2.csproj|d:\\code\\c#\\cau14_chuong2\\cau14_chuong2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{66975882-1FE3-4279-9F5F-2B5577AE64DC}|cau14_chuong2\\cau14_chuong2.csproj|solutionrelative:cau14_chuong2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66975882-1FE3-4279-9F5F-2B5577AE64DC}|cau14_chuong2\\cau14_chuong2.csproj|d:\\code\\c#\\cau14_chuong2\\cau14_chuong2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66975882-1FE3-4279-9F5F-2B5577AE64DC}|cau14_chuong2\\cau14_chuong2.csproj|solutionrelative:cau14_chuong2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66975882-1FE3-4279-9F5F-2B5577AE64DC}|cau14_chuong2\\cau14_chuong2.csproj|d:\\code\\c#\\cau14_chuong2\\cau14_chuong2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66975882-1FE3-4279-9F5F-2B5577AE64DC}|cau14_chuong2\\cau14_chuong2.csproj|solutionrelative:cau14_chuong2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\code\\C#\\cau14_chuong2\\cau14_chuong2\\Form1.cs",
+              "RelativeDocumentMoniker": "cau14_chuong2\\Form1.cs",
+              "ToolTip": "D:\\code\\C#\\cau14_chuong2\\cau14_chuong2\\Form1.cs",
+              "RelativeToolTip": "cau14_chuong2\\Form1.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T02:59:26.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\code\\C#\\cau14_chuong2\\cau14_chuong2\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "cau14_chuong2\\Form1.Designer.cs",
+              "ToolTip": "D:\\code\\C#\\cau14_chuong2\\cau14_chuong2\\Form1.Designer.cs",
+              "RelativeToolTip": "cau14_chuong2\\Form1.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAIAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T02:44:26.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\code\\C#\\cau14_chuong2\\cau14_chuong2\\Form1.cs",
+              "RelativeDocumentMoniker": "cau14_chuong2\\Form1.cs",
+              "ToolTip": "D:\\code\\C#\\cau14_chuong2\\cau14_chuong2\\Form1.cs [Design]",
+              "RelativeToolTip": "cau14_chuong2\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T02:41:56.836Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+﻿namespace cau14_chuong2
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            Label label1;
+            Label label2;
+            Label label3;
+            components = new System.ComponentModel.Container();
+            TabControl tabControl1 = new TabControl();
+            TabPage tabPage1 = new TabPage();
+            TabPage tabPage2 = new TabPage();
+            Label lblTitle = new Label();
+            txtTen = new TextBox();
+            btnCapNhat = new Button();
+            lstLopA = new ListBox();
+            lstLopB = new ListBox();
+            btnMoveRight = new Button();
+            btnMoveLeft = new Button();
+            btnMoveRightAll = new Button();
+            btnMoveLeftAll = new Button();
+            btnDeleteA = new Button();
+            btnDeleteB = new Button();
+            btnExit = new Button();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+
+            tabControl1.SuspendLayout();
+            tabPage1.SuspendLayout();
+            SuspendLayout();
+
+            tabControl1.Controls.Add(tabPage1);
+            tabControl1.Controls.Add(tabPage2);
+            tabControl1.Location = new Point(12, 12);
+            tabControl1.Name = "tabControl1";
+            tabControl1.SelectedIndex = 0;
+            tabControl1.Size = new Size(576, 30);
+            tabControl1.TabIndex = 0;
+
+            tabPage1.Controls.Add(lblTitle);
+            tabPage1.Location = new Point(4, 24);
+            tabPage1.Name = "tabPage1";
+            tabPage1.Padding = new Padding(3);
+            tabPage1.Size = new Size(568, 2);
+            tabPage1.TabIndex = 0;
+            tabPage1.Text = "Cập Nhật";
+            tabPage1.UseVisualStyleBackColor = true;
+
+            lblTitle.AutoSize = true;
+            lblTitle.Location = new Point(6, 6);
+            lblTitle.Name = "lblTitle";
+            lblTitle.Size = new Size(0, 0);
+            lblTitle.TabIndex = 0;
+
+            label3.AutoSize = true;
+            label3.Location = new Point(21, 56);
+            label3.Name = "label3";
+            label3.Size = new Size(51, 15);
+            label3.TabIndex = 9;
+            label3.Text = "Tên SV:";
+
+            txtTen.Location = new Point(86, 53);
+            txtTen.Name = "txtTen";
+            txtTen.Size = new Size(200, 23);
+            txtTen.TabIndex = 1;
+
+            btnCapNhat.Location = new Point(292, 53);
+            btnCapNhat.Name = "btnCapNhat";
+            btnCapNhat.Size = new Size(75, 23);
+            btnCapNhat.TabIndex = 2;
+            btnCapNhat.Text = "Cập Nhật";
+            btnCapNhat.UseVisualStyleBackColor = true;
+            btnCapNhat.Click += BtnCapNhat_Click;
+
+            label1.AutoSize = true;
+            label1.Location = new Point(21, 98);
+            label1.Name = "label1";
+            label1.Size = new Size(50, 15);
+            label1.TabIndex = 3;
+            label1.Text = "Lớp A:";
+
+            label2.AutoSize = true;
+            label2.Location = new Point(390, 98);
+            label2.Name = "label2";
+            label2.Size = new Size(50, 15);
+            label2.TabIndex = 7;
+            label2.Text = "Lớp B:";
+
+            lstLopA.FormattingEnabled = true;
+            lstLopA.ItemHeight = 15;
+            lstLopA.Location = new Point(21, 120);
+            lstLopA.Name = "lstLopA";
+            lstLopA.SelectionMode = SelectionMode.MultiExtended;
+            lstLopA.Size = new Size(200, 184);
+            lstLopA.TabIndex = 4;
+
+            lstLopB.FormattingEnabled = true;
+            lstLopB.ItemHeight = 15;
+            lstLopB.Location = new Point(390, 120);
+            lstLopB.Name = "lstLopB";
+            lstLopB.SelectionMode = SelectionMode.MultiExtended;
+            lstLopB.Size = new Size(200, 184);
+            lstLopB.TabIndex = 6;
+
+            btnMoveRight.Location = new Point(260, 155);
+            btnMoveRight.Name = "btnMoveRight";
+            btnMoveRight.Size = new Size(40, 23);
+            btnMoveRight.TabIndex = 5;
+            btnMoveRight.Text = ">";
+            btnMoveRight.UseVisualStyleBackColor = true;
+            btnMoveRight.Click += BtnMoveRight_Click;
+
+            btnMoveLeft.Location = new Point(260, 184);
+            btnMoveLeft.Name = "btnMoveLeft";
+            btnMoveLeft.Size = new Size(40, 23);
+            btnMoveLeft.TabIndex = 8;
+            btnMoveLeft.Text = "<";
+            btnMoveLeft.UseVisualStyleBackColor = true;
+            btnMoveLeft.Click += BtnMoveLeft_Click;
+
+            btnMoveRightAll.Location = new Point(260, 213);
+            btnMoveRightAll.Name = "btnMoveRightAll";
+            btnMoveRightAll.Size = new Size(40, 23);
+            btnMoveRightAll.TabIndex = 10;
+            btnMoveRightAll.Text = ">>";
+            btnMoveRightAll.UseVisualStyleBackColor = true;
+            btnMoveRightAll.Click += BtnMoveRightAll_Click;
+
+            btnMoveLeftAll.Location = new Point(260, 242);
+            btnMoveLeftAll.Name = "btnMoveLeftAll";
+            btnMoveLeftAll.Size = new Size(40, 23);
+            btnMoveLeftAll.TabIndex = 11;
+            btnMoveLeftAll.Text = "<<";
+            btnMoveLeftAll.UseVisualStyleBackColor = true;
+            btnMoveLeftAll.Click += BtnMoveLeftAll_Click;
+
+            btnDeleteA.Location = new Point(21, 320);
+            btnDeleteA.Name = "btnDeleteA";
+            btnDeleteA.Size = new Size(90, 23);
+            btnDeleteA.TabIndex = 12;
+            btnDeleteA.Text = "Xóa Lớp A";
+            btnDeleteA.UseVisualStyleBackColor = true;
+            btnDeleteA.Click += BtnDeleteA_Click;
+
+            btnDeleteB.Location = new Point(500, 320);
+            btnDeleteB.Name = "btnDeleteB";
+            btnDeleteB.Size = new Size(90, 23);
+            btnDeleteB.TabIndex = 13;
+            btnDeleteB.Text = "Xóa Lớp B";
+            btnDeleteB.UseVisualStyleBackColor = true;
+            btnDeleteB.Click += BtnDeleteB_Click;
+
+            btnExit.Location = new Point(260, 320);
+            btnExit.Name = "btnExit";
+            btnExit.Size = new Size(75, 23);
+            btnExit.TabIndex = 14;
+            btnExit.Text = "Kết Thúc";
+            btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += BtnExit_Click;
+
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(610, 370);
+            Controls.Add(btnExit);
+            Controls.Add(btnDeleteB);
+            Controls.Add(btnDeleteA);
+            Controls.Add(btnMoveLeftAll);
+            Controls.Add(btnMoveRightAll);
+            Controls.Add(label3);
+            Controls.Add(btnMoveLeft);
+            Controls.Add(label2);
+            Controls.Add(lstLopB);
+            Controls.Add(lstLopA);
+            Controls.Add(label1);
+            Controls.Add(btnCapNhat);
+            Controls.Add(txtTen);
+            Controls.Add(btnMoveRight);
+            Controls.Add(tabControl1);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Form Cập Nhật 2 ListBox";
+            FormClosing += Form1_FormClosing;
+            tabControl1.ResumeLayout(false);
+            tabPage1.ResumeLayout(false);
+            tabPage1.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private TextBox txtTen;
+        private ListBox lstLopA;
+        private ListBox lstLopB;
+        private Button btnCapNhat;
+        private Button btnMoveRight;
+        private Button btnMoveLeft;
+        private Button btnMoveRightAll;
+        private Button btnMoveLeftAll;
+        private Button btnDeleteA;
+        private Button btnDeleteB;
+        private Button btnExit;
+    }
+}

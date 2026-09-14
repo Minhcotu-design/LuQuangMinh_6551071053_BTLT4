@@ -1,0 +1,27 @@
+﻿namespace cau15_chuong2
+{
+    public partial class Form2 : Form
+    {
+        public Form2()
+        {
+            InitializeComponent();
+            UpdateSelectedDates();
+        }
+
+        private void monthCalendar_DateChanged(object? sender, DateRangeEventArgs e)
+        {
+            UpdateSelectedDates();
+        }
+
+        private void datePicker_ValueChanged(object? sender, EventArgs e)
+        {
+            monthCalendar.SetDate(datePicker.Value);
+        }
+
+        private void UpdateSelectedDates()
+        {
+            lblStartDate.Text = $"Start Date:\n{monthCalendar.SelectionStart:d}";
+            lblEndDate.Text = $"End Date:\n{monthCalendar.SelectionEnd:d}";
+        }
+    }
+}
